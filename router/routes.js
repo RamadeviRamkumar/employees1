@@ -182,7 +182,7 @@ router.post('/signin',(req,res) => {
             });
         }
     });
-var Controller = require('../Controller/Controller.js');
+var Controller = require('../controller/controller.js');
 router.route('/users')
 .get(Controller.index)
 
